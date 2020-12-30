@@ -12,7 +12,7 @@ function EnsureExists($url, $filepath)
 }
 
 $downloads = (Resolve-Path "~/Downloads/")
-$file = -join ($downloads, "Office365.img")
+$file = -join ($downloads, "Office.img")
 #$url = "http://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/O365ProPlusRetail.img"
 $url = "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/ProPlus2019Retail.img"
 
